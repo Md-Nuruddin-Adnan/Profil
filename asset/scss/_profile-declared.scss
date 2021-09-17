@@ -1,0 +1,22 @@
+.profile-declared {
+    .profile-human-image {
+        position: absolute;
+        top: 50%;
+        left: 0;
+        transform: translateY(-50%);
+        width: 75%;
+    }
+
+    .table {
+        tr td:first-child{
+            color: $text-blue;
+        }
+    }
+
+    .family {
+        .img {
+            width: 100px;
+            text-align: center;
+        }
+    }
+}

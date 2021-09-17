@@ -1,0 +1,19 @@
+.header {
+    background: url(../images/bg-dashboard.jpg) no-repeat center center/cover;
+    .container {
+        height: 100vh;
+        position: relative;
+        @media (max-width: 766px){
+            height: 45vh;
+        }
+
+        .report-date {
+            font-family: 'HelveticaNeue-Medium';
+            position: absolute;
+            bottom: 30px;
+            right: 20px;
+            z-index: 1;
+            color: $white;
+        }
+    }
+}

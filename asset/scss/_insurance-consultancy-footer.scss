@@ -1,0 +1,24 @@
+.insurance-consultancy-footer {
+    
+    background: $bg-blue;
+    border-top: 10px solid $yellow;
+    border-bottom: 10px solid $yellow;
+    margin-top: 40px;
+    padding: 30px;
+
+    footer{
+        .icon {
+            img {
+                width: 100px;
+            }
+        }
+    
+        p {
+            font-family: 'HelveticaNeue-Medium';
+            font-size: 22px;
+            color: $yellow;
+            padding-left: 20px;
+        }
+    }
+
+}

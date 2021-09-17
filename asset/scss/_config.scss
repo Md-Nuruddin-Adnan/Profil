@@ -1,0 +1,39 @@
+@font-face {
+  font-family: 'HelveticaNeue-Light';
+  src: url(../fonts/HelveticaNeue_Light.ttf);
+}
+@font-face {
+  font-family: 'HelveticaNeue';
+  src: url(../fonts/HelveticaNeue.ttf);
+}
+@font-face {
+  font-family: 'HelveticaNeue-Medium';
+  src: url(../fonts/HelveticaNeue_Medium.ttf);
+}
+@font-face {
+  font-family: 'HelveticaNeue-Bold';
+  src: url(../fonts/HelveticaNeue_Bold.ttf);
+}
+
+
+$bg-light-blue: #16455B;
+$bg-blue: #00354D;
+$bg-dark-blue: #001D2B;
+
+$text-blue: #00B0FF;
+$yellow: #FFB40B;
+$white: #fff;
+
+
+body {
+  font-family: 'HelveticaNeue', sans-serif;
+  background: $bg-light-blue;
+  color: $text-blue;
+  // font-size: 18px;
+}
+
+@media (min-width: 1200px){
+  .container {
+    max-width: 1170px;
+  }
+}

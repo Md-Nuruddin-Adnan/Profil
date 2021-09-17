@@ -1,0 +1,19 @@
+.portfolio-analyzed {
+    .analysis-charts {
+        margin: auto;
+
+        @media (min-width: 768px) {
+            width: 70%;
+        }
+
+        .row {
+            align-items: center;
+            padding: 30px 0;
+            border-bottom: 2px dotted $yellow;
+
+            &:last-child{
+                border-bottom:none;
+            }
+        }
+    }
+}

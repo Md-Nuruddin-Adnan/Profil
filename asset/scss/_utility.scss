@@ -1,0 +1,49 @@
+// padding
+.py-40 {
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+.py-60 {
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+.pb-40 {
+    padding-bottom: 40px;
+}
+.pt-40 {
+    padding-top: 40px;
+}
+.pt-60 {
+    padding-top: 60px;
+}
+.pb-60 {
+    padding-bottom: 60px;
+}
+
+
+// background
+.bg-light-blue {
+    background-color: $bg-light-blue;
+}
+.bg-blue {
+    background-color: $bg-blue;
+}
+.bg-dark-blue {
+    background-color: $bg-dark-blue;
+}
+
+.text-yellow {
+    color: $yellow !important;
+}
+
+
+// list
+.list-style-ellipsis li {
+    list-style: disc;
+}
+.list-space-5 li {
+    padding: 2.5px;
+}
+.list-space-10 li {
+    padding: 5px;
+}
