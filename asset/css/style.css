@@ -87,6 +87,12 @@ body {
   padding-bottom: 60px;
 }
 
+@media (min-width: 992px) {
+  .w-lg-75 {
+    width: 75%;
+  }
+}
+
 .bg-light-blue {
   background-color: #16455B;
 }
@@ -162,7 +168,11 @@ body {
   border-width: 2px;
   color: #fff;
   position: relative;
-  padding: 20px 5px 40px 5px;
+  padding: 10px 5px 40px 5px;
+}
+
+.widget-card p {
+  font-size: 14px;
 }
 
 .widget-card span {
@@ -177,6 +187,20 @@ body {
   background: #FFB40B;
   font-size: 30px;
   line-height: 60px;
+}
+
+.profile-card {
+  position: relative;
+  height: 100%;
+}
+
+.profile-card .top-icon {
+  width: 60px;
+  height: 60px;
+  position: absolute;
+  top: -30px;
+  right: -30px;
+  z-index: 1;
 }
 
 .website-link {
@@ -308,6 +332,113 @@ body {
 
 .portfolio-analyzed .analysis-charts .row:last-child {
   border-bottom: none;
+}
+
+.risk-management .alert {
+  border: 1px solid #00B0FF;
+  border-radius: 7px;
+}
+
+.risk-management .alert i {
+  font-size: 50px;
+  margin-right: 15px;
+}
+
+.risk-management .rist-factor {
+  width: 95%;
+  margin: auto;
+  padding: 20px 0;
+}
+
+.risk-management .rist-factor .chart {
+  width: 15%;
+  margin-right: 30px;
+}
+
+.risk-management .rist-factor .chart img {
+  width: 100%;
+  display: block;
+}
+
+.risk-management .rist-factor p {
+  width: 85%;
+}
+
+.risk-management .rist-factor .divider {
+  border-bottom: 1px dotted #FFB40B;
+  width: 95%;
+  margin-left: auto;
+  padding-top: 20px;
+}
+
+.portfolio-header .text h4 {
+  font-family: 'HelveticaNeue-Medium';
+}
+
+.portfolio-header .text .para {
+  padding: 5px 0 25px 0;
+}
+
+@media (min-width: 1200px) {
+  .portfolio-header .text .para {
+    white-space: pre-line;
+  }
+}
+
+.portfolio-header .text ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding-left: 0;
+}
+
+.portfolio-header .text ul li {
+  text-align: center;
+  margin-right: 30px;
+  width: 60px;
+}
+
+.portfolio-header .text ul li img {
+  width: 100%;
+}
+
+.portfolio-header .text ul li p {
+  font-size: 12px;
+  color: #FFB40B;
+}
+
+.portfolio-header .border-bottom {
+  border-color: rgba(0, 176, 255, 0.4) !important;
+  width: 90%;
+  margin-top: -8px;
+  position: relative;
+  border-width: 8px !important;
+}
+
+.portfolio-header .border-bottom i {
+  color: rgba(0, 176, 255, 0.4);
+  position: absolute;
+  top: 100%;
+  left: 0;
+  font-size: 50px;
+  line-height: 29px;
+}
+
+.portfolio-header .border-bottom.reverse {
+  margin-left: auto;
+}
+
+.portfolio-header .border-bottom.reverse i {
+  right: 0;
+  left: auto;
+}
+
+.treatment .divider {
+  border-bottom: 1px dotted #FFB40B;
+  width: 95%;
+  margin-left: auto;
+  padding-top: 40px;
+  margin-bottom: 30px;
 }
 
 /*===// end of component === */

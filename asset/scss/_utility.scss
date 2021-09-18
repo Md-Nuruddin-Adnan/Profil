@@ -19,6 +19,12 @@
 .pb-60 {
     padding-bottom: 60px;
 }
+.w-lg-75 {
+    @media (min-width: 992px) {
+        width: 75%;
+    }
+}
+
 
 
 // background

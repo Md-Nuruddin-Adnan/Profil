@@ -49,7 +49,11 @@
     border-width: 2px;
     color: $white;
     position: relative;
-    padding: 20px 5px 40px 5px;
+    padding: 10px 5px 40px 5px;
+
+    p {
+        font-size: 14px;
+    }
 
     span {
         position: absolute;
@@ -62,6 +66,20 @@
         background: #FFB40B;
         font-size: 30px;
         line-height: 60px;
+    }
+}
+
+.profile-card{
+    position: relative;
+    height: 100%;
+
+    .top-icon {
+        width: 60px;
+        height: 60px;
+        position: absolute;
+        top: -30px;
+        right: -30px;
+        z-index: 1;
     }
 }
 // card end

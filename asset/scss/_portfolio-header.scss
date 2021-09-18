@@ -1,0 +1,58 @@
+.portfolio-header {
+    .text {
+        h4 {
+            font-family: 'HelveticaNeue-Medium';
+        }
+        .para {
+           padding: 5px 0 25px 0;
+           @media (min-width: 1200px) {
+            white-space: pre-line;
+           }
+        }
+        ul {
+            display: flex;
+            padding-left: 0;
+
+            li {
+                text-align: center;
+                margin-right: 30px;
+                width: 60px;
+
+                img {
+                    width: 100%;
+                }
+
+                p {
+                    font-size: 12px;
+                    color: $yellow;
+                }
+            }
+        }
+    }
+
+    .border-bottom {
+        border-color: rgba(#00B0FF, .4) !important;
+        width: 90%;
+        margin-top: -8px;
+        position: relative;
+        border-width: 8px !important;
+
+        i {
+            color: rgba(#00B0FF, .4);
+            position: absolute;
+            top: 100%;
+            left: 0;
+            font-size: 50px;
+            line-height: 29px;
+        }
+
+        &.reverse {
+            margin-left: auto;
+            
+            i {
+                right: 0;
+                left: auto;
+            }
+        }
+    }
+}
