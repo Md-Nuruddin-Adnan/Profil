@@ -1,0 +1,18 @@
+.gauge {
+    margin-bottom: 15px;
+    p {
+        font-size: 16px;
+        position: absolute;
+        top: 60%;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 100%;
+    }
+
+    @media (max-width: 991px) {
+        &.gauge-big {
+            font-size: 85px;
+        }
+    }
+
+}

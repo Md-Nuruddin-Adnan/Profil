@@ -8,7 +8,7 @@
   <link rel='shortcut icon' href='asset/images/favicon.png' type='image/x-icon'>
   <link rel="stylesheet" href="asset/css/all.min.css">
   <link rel="stylesheet" href="asset/css/bootstrap.min.css">
-  <link rel="stylesheet" href="asset/css/slick.css">
+  <link rel="stylesheet" href="asset/css/cmGauge.css">
   <link rel="stylesheet" href="asset/css/style.css">
 </head>
 <body>
@@ -280,7 +280,13 @@
             <div class="card-body">
               <h5>Provenienza rischio
                 analizzato</h5>
-              <img src="asset/images/guage_1.png" alt="chart" class="img-fluid">
+              <p>Centro</p>
+              <div id="gaugeDemo" class="gauge gauge-big gauge-green">
+                <div class="gauge-arrow" data-percentage="30"></div>
+                <p class="d-flex justify-content-between">
+                  <span>Sud</span> <span>Nord</span>
+                </p>
+              </div>
             </div>
           </div>
           <img src="asset/images/icon/icon_set.png" alt="icon" class="img-fluid">
@@ -372,30 +378,48 @@
           </div>
         </div>
         <div class="row pt-60 mt-5">
-          <div class="col-md-4 col-sm-6 mb-4">
+          <div class="col-md-4 col-sm-6 mb-4 h-100">
             <div class="card text-white text-center">
               <div class="card-body">
                 <h5 class="mb-3">Classe Occupazione
                   Nucleo Rischio Analizzato</h5>
-                <img src="asset/images/guage_2.png" alt="chart" class="img-fluid">
+                <p>2</p>
+                <div class="gauge gauge-big gauge-orange">
+                  <div class="gauge-arrow" data-percentage="30"></div>
+                  <p class="d-flex justify-content-between">
+                    <span>1</span> <span>3</span>
+                  </p>
+                </div>
               </div>
             </div>
           </div>
           <div class="col-md-4 col-sm-6 mb-4">
-            <div class="card text-white text-center">
+            <div class="card text-white text-center h-100">
               <div class="card-body">
                 <h5 class="mb-3">Classe Reddito
                   Nucleo Rischio Analizzato</h5>
-                <img src="asset/images/guage_2.png" alt="chart" class="img-fluid">
+                <p>2</p>
+                <div class="gauge gauge-big gauge-orange">
+                  <div class="gauge-arrow" data-percentage="30"></div>
+                  <p class="d-flex justify-content-between">
+                    <span>1</span> <span>3</span>
+                  </p>
+                </div>
               </div>
             </div>
           </div>
           <div class="col-md-4 col-sm-6 mb-4">
-            <div class="card text-white text-center">
+            <div class="card text-white text-center h-100">
               <div class="card-body">
                 <h5 class="mb-3">Classe Hobbies
                   Nucleo Rischio Analizzato</h5>
-                <img src="asset/images/guage_2.png" alt="chart" class="img-fluid">
+                <p>2</p>
+                <div class="gauge gauge-big gauge-orange">
+                  <div class="gauge-arrow" data-percentage="30"></div>
+                  <p class="d-flex justify-content-between">
+                    <span>1</span> <span>3</span>
+                  </p>
+                </div>
               </div>
             </div>
           </div>
@@ -1346,7 +1370,7 @@ Splittando le principali esigenze del potenziale assicurato su 3 Controllers, vi
 
   <script src="asset/js/jquery-3.5.1.min.js"></script>
   <script src="asset/js/bootstrap.min.js"></script>
-  <script src="asset/js/slick.min.js"></script>
+  <script src="asset/js/cmGauge.js"></script>
   <script src="asset/js/custom.js"></script>
 </body>
 </html>

@@ -469,6 +469,26 @@ body {
   margin-bottom: 30px;
 }
 
+.gauge {
+  margin-bottom: 15px;
+}
+
+.gauge p {
+  font-size: 16px;
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  width: 100%;
+}
+
+@media (max-width: 991px) {
+  .gauge.gauge-big {
+    font-size: 85px;
+  }
+}
+
 /*===// end of component === */
 /*=== ? section start === */
 /*===// end of ? section === */
