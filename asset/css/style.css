@@ -201,6 +201,26 @@ body {
   top: -30px;
   right: -30px;
   z-index: 1;
+  background: #00354D;
+}
+
+.profile-card-2 {
+  position: relative;
+  height: 100%;
+}
+
+.profile-card-2 .top-icon {
+  height: 60px;
+  position: absolute;
+  top: -30px;
+  left: 15px;
+  padding: 0 10px;
+  z-index: 1;
+}
+
+.profile-card-2 .top-icon img {
+  width: 60px;
+  height: 60px;
 }
 
 .website-link {
@@ -229,6 +249,14 @@ body {
 
 .border-bottom {
   border-bottom: 6px solid #FFB40B !important;
+}
+
+.dotted-divider-blue {
+  border-bottom: 2px dotted #00B0FF;
+}
+
+.dotted-divider-blue.w-90 {
+  max-width: 90%;
 }
 
 /*===// end of common css === */
@@ -365,7 +393,7 @@ body {
 }
 
 .risk-management .rist-factor .divider {
-  border-bottom: 1px dotted #FFB40B;
+  border-bottom: 2px dotted #FFB40B;
   width: 95%;
   margin-left: auto;
   padding-top: 20px;
@@ -434,7 +462,7 @@ body {
 }
 
 .treatment .divider {
-  border-bottom: 1px dotted #FFB40B;
+  border-bottom: 2px dotted #FFB40B;
   width: 95%;
   margin-left: auto;
   padding-top: 40px;
@@ -445,5 +473,38 @@ body {
 /*=== ? section start === */
 /*===// end of ? section === */
 /*=== footer section start === */
+.footer .alert {
+  border: 1px solid #00B0FF;
+  border-radius: 7px;
+}
+
+.footer .footer-card {
+  text-align: center;
+}
+
+.footer .footer-card p {
+  padding-bottom: 5px;
+}
+
+.footer .footer-card .btn {
+  color: #00951D;
+  background: #00FF31;
+  border: none;
+  border-radius: 25px;
+  min-width: 100px;
+  font-size: 20px;
+  font-family: 'HelveticaNeue-Medium';
+}
+
+.footer .footer-bottom {
+  text-align: center;
+}
+
+.footer .footer-bottom .website-link {
+  border-bottom: 2px solid #00B0FF;
+  padding-bottom: 10px;
+  margin-bottom: 10px;
+}
+
 /*===// end of footer section === */
 /*# sourceMappingURL=style.css.map */

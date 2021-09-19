@@ -1,0 +1,33 @@
+.footer {
+    .alert {
+        border: 1px solid $text-blue;
+        border-radius: 7px;
+    }
+
+    .footer-card {
+        text-align: center;
+
+        p {
+            padding-bottom: 5px;
+        }
+
+        .btn {
+            color: #00951D;
+            background: #00FF31;
+            border: none;
+            border-radius: 25px;
+            min-width: 100px;
+            font-size: 20px;
+            font-family: 'HelveticaNeue-Medium';
+        }
+    }
+
+    .footer-bottom {
+        text-align: center;
+        .website-link {
+            border-bottom: 2px solid $text-blue;
+            padding-bottom: 10px;
+            margin-bottom: 10px;
+        }
+    }
+}

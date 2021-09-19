@@ -80,6 +80,27 @@
         top: -30px;
         right: -30px;
         z-index: 1;
+        background: #00354D;
+    }
+}
+
+
+.profile-card-2 {
+    position: relative;
+    height: 100%;
+
+    .top-icon {
+        height: 60px;
+        position: absolute;
+        top: -30px;
+        left: 15px;
+        padding: 0 10px;
+        z-index: 1;
+
+        img {
+            width: 60px;
+            height: 60px;
+        }
     }
 }
 // card end
@@ -114,4 +135,14 @@
 // border
 .border-bottom {
     border-bottom: 6px solid $yellow !important;
+}
+
+
+// divider
+.dotted-divider-blue {
+    border-bottom: 2px dotted $text-blue;
+
+    &.w-90 {
+        max-width: 90%;
+    }
 }
