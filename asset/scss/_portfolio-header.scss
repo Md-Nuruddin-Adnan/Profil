@@ -17,6 +17,10 @@
                 text-align: center;
                 margin-right: 30px;
                 width: 60px;
+                @media (max-width:575px) {
+                    margin-right: 25px;
+                    width: 45px;
+                }
 
                 img {
                     width: 100%;

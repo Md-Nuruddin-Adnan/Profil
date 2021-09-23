@@ -412,6 +412,13 @@ body {
   width: 60px;
 }
 
+@media (max-width: 575px) {
+  .portfolio-header .text ul li {
+    margin-right: 25px;
+    width: 45px;
+  }
+}
+
 .portfolio-header .text ul li img {
   width: 100%;
 }
