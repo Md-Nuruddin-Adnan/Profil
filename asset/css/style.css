@@ -455,6 +455,14 @@ body {
   margin-bottom: 30px;
 }
 
+.treatment .bar-chart {
+  width: 25px;
+  height: 100%;
+  min-height: 150px;
+  background: -webkit-gradient(linear, left bottom, left top, from(#FF0000), color-stop(#FFE200), color-stop(#DFE60A), color-stop(#46F739), to(#00892A));
+  background: linear-gradient(0deg, #FF0000, #FFE200, #DFE60A, #46F739, #00892A);
+}
+
 .gauge {
   margin-bottom: 15px;
 }
@@ -535,9 +543,10 @@ body {
   border-width: 0.18em;
 }
 
-.chart-set-card #chartdiv {
+.chart-set-card .doughnut-chart {
   width: 100%;
   height: 100px;
+  margin: auto;
 }
 
 .progress-circle .circle-progress {
