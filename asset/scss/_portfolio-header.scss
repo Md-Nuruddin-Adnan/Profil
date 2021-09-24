@@ -34,6 +34,26 @@
         }
     }
 
+    .chart {
+        border: 8px solid rgba(#00B0FF, .4);
+        border-radius: 50%;
+        padding: 45px;
+
+        @media(min-width: 768px) and (max-width: 992px){
+            padding: 25px;
+        }
+        @media(max-width: 767px){
+            padding: 0;
+            width: 250px;
+            height: 250px;
+            margin: auto;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+    }
+   
+
     .border-bottom {
         border-color: rgba(#00B0FF, .4) !important;
         width: 90%;
